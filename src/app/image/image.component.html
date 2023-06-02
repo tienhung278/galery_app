@@ -1,0 +1,7 @@
+<mat-grid-list [cols]="columns$ | async">
+    <mat-grid-tile *ngFor="let image of images$ | async">
+        <a fxLayout="column" fxLayoutAlign="center center" [routerLink]="['/image', image.id]" class="tile">
+            <img src="{{image.imageUrl}}" width="100px" height="100px" />
+        </a>
+    </mat-grid-tile>
+</mat-grid-list>

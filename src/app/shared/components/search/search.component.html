@@ -1,0 +1,21 @@
+<h1 class="title">Search images</h1>
+
+<form [formGroup]="searchForm" (ngSubmit)="onSearch()" class="form">
+    <mat-form-field class="form__field">
+        <input matInput type="text" placeholder="Id" formControlName="id">
+    </mat-form-field>
+
+    <mat-form-field class="form__field">
+        <input matInput type="number" placeholder="Min rating" formControlName="minRating">
+        <mat-error>Cannot be less than 0.</mat-error>
+    </mat-form-field>
+
+    <mat-form-field class="form__field">
+        <input matInput type="number" placeholder="Max rating" formControlName="maxRating">
+        <mat-error *ngIf="searchForm.controls['maxRating'].hasError('min')">Cannot be less than 0</mat-error>
+        <mat-error *ngIf="searchForm.controls['maxRating'].hasError('max')">Cannot be more than 5</mat-error>
+        <mat-error *ngIf="searchForm.hasError('minLessThanMax')">Should be larger than min rating</mat-error>
+    </mat-form-field>
+
+    <button color="primary" mat-raised-button class="form__submit" [disabled]="!searchForm.valid">Search</button>
+</form>

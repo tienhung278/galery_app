@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "data/img/radio.png",
+        "rating": 1
+    },
+    {
+        "id": 2,
+        "imageUrl": "data/img/sunnies.png",
+        "rating": 2
+    },
+    {
+        "id": 3,
+        "imageUrl": "data/img/clock.png",
+        "rating": 3
+    },
+    {
+        "id": 4,
+        "imageUrl": "data/img/popsicle.png",
+        "rating": 4
+    },
+    {
+        "id": 5,
+        "imageUrl": "data/img/green-shoes.png",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "imageUrl": "data/img/teapot.png",
+        "rating": 1
+    },
+    {
+        "id": 7,
+        "imageUrl": "data/img/chucks.png",
+        "rating": 2
+    },
+    {
+        "id": 8,
+        "imageUrl": "data/img/brush.png",
+        "rating": 3
+    },
+    {
+        "id": 9,
+        "imageUrl": "data/img/fish_bowl.png",
+        "rating": 4
+    },
+    {
+        "id": 10,
+        "imageUrl": "data/img/lipstick.png",
+        "rating": 5
+    },
+    {
+        "id": 11,
+        "imageUrl": "data/img/backpack.png",
+        "rating": 1
+    },
+    {
+        "id": 12,
+        "imageUrl": "data/img/helmet.png",
+        "rating": 2
+    },
+    {
+        "id": 13,
+        "imageUrl": "data/img/beachball.png",
+        "rating": 3
+    },
+    {
+        "id": 14,
+        "imageUrl": "data/img/binoculars.png",
+        "rating": 4
+    },
+    {
+        "id": 15,
+        "imageUrl": "data/img/flippers.png",
+        "rating": 5
+    },
+    {
+        "id": 16,
+        "imageUrl": "data/img/surfboard.png",
+        "rating": 1
+    }
+]

@@ -1,0 +1,17 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav>
+        <app-search (search)="sidenav.close()"></app-search>
+    </mat-sidenav>
+
+    <mat-toolbar class="toolbar" color="primary">
+        <button mat-icon-button (click)="sidenav.toggle()">
+            <mat-icon>search</mat-icon>
+        </button>
+
+        <div class="toolbar__title-group">
+            <a [routerLink]="['/']" class="toolbar__title">Galery</a>
+        </div>
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>
+</mat-sidenav-container>
